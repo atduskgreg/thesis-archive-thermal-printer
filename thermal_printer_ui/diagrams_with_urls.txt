@@ -5,6 +5,7 @@ A Conversation
 2001
 Hidenori Yokoyama
 Manipulated City
+http://itp-archive.herokuapp.com/theses/373
 
 2000
 Arnon Yaar
@@ -61,6 +62,7 @@ Downloadable Mobile Phone Graphics: An Overview and Tutorial
 2005
 James Tunick, Miro Kirov, Houston Riley
 Collaborative Immersive Networked Environment
+http://itp-archive.herokuapp.com/theses/335
 
 1984
 Deborah Tumey

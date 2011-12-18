@@ -16,31 +16,31 @@ ArrayList<Category> categories;
 void setup(){
   size(1280,800);
   fs = new FullScreen(this); 
-  //fs.enter();
+  fs.enter();
   
   textFont(createFont("Gulim",48));
 
-  gradient = loadImage("gradient3.png");
+  gradient = loadImage("gradient.png");
   
   PImage d = loadImage("diagrams.jpg");
-  PImage s = loadImage("screenshot.png");
-  PImage t = loadImage("title_page.png");
+  PImage s = loadImage("screenshots.jpg");
+  PImage t = loadImage("title_pages.jpg");
   
   categories = new ArrayList();
-  Category diagrams = new Category(125, 130, d, "Diagrams");
+  Category diagrams = new Category(50, 250, d, "Diagrams");
   diagrams.loadTheses("diagrams.txt");
   categories.add(diagrams);
   
-  Category screenShots = new Category(650, 130, s, "Screenshots");
+  Category screenShots = new Category(465, 250, s, "Screenshots");
   screenShots.loadTheses("screen_shots.txt");
   categories.add(screenShots);
   
-  Category titlePages = new Category(425, 450, t, "Title Pages");
+  Category titlePages = new Category(875, 250, t, "Title Pages");
   titlePages.loadTheses("title_pages.txt");
   categories.add(titlePages);
   
-  String portName = Serial.list()[0];
-  port = new Serial(this, portName, 9600);
+  //String portName = Serial.list()[0];
+  //port = new Serial(this, portName, 9600);
 }
 
 void draw(){
@@ -70,6 +70,14 @@ void draw(){
   stroke(200);
   strokeWeight(1);
   line(0,100, width, 100);  
+  
+  textSize(18);
+  textAlign(CENTER);
+  text("Click on the prints to receive a receipt with details about the theses included in them.\nLearn more at: itp-archive.herokuapp.com.", width/2, 600);
+  textAlign(LEFT);
+  
+  
+  
   noStroke();
   
   for(int i = 0; i < categories.size(); i++){
@@ -87,8 +95,9 @@ void mouseClicked(){
 
 void thermalPrintString(String toPrint){
   println(toPrint);
-  for(int i = 0; i < toPrint.length(); i++){
+  /*for(int i = 0; i < toPrint.length(); i++){
     port.write((byte)toPrint.charAt(i));
   }
   port.write((byte)1);
+  */
 }

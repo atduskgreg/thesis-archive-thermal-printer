@@ -1,34 +1,42 @@
 2005
 James Tunick, Miro Kirov, Houston Riley
 Collaborative Immersive Networked Environment
+http://itp-archive.herokuapp.com/theses/335
 
 2006
 Israni Aranka
 Diya
+http://itp-archive.herokuapp.com/theses/377
 
 1989
 Dafna Bakish
 Desktop Pre-press Publishing
+http://itp-archive.herokuapp.com/theses/36
 
 2007
 Anil Banskota
 Hyper Ads By U
+http://itp-archive.herokuapp.com/theses/39
 
 1991
 Edward Berry
 Computer Crime: Assessing the Phenomenon
+http://itp-archive.herokuapp.com/theses/59
 
 2000
 Greg Blackburn
 Bungalow Dance Party!
+http://itp-archive.herokuapp.com/theses/64
 
 1986
 Lee Borck
 Efficiency at the Cost of Humanity: ATM Intimidation
+http://itp-archive.herokuapp.com/theses/75
 
 1997
 Charles Boyce
 Fiber Optic Transmission Systems
+http://itp-archive.herokuapp.com/theses/81
 
 2001
 Phillpa Philpot
@@ -45,6 +53,7 @@ Development of an Electronic Bulletin Board for the Qube Cable TV System
 1998
 Maria Psomiads, Giovanni Fortezza
 Pegasus
+http://itp-archive.herokuapp.com/theses/350
 
 1991
 Sandra Peplinksi

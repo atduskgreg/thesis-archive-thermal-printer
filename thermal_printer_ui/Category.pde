@@ -13,18 +13,22 @@ class Category {
   }
   
   void loadTheses(String filePath){
+    println("loading: " + filePath);
     String[] lines = loadStrings(filePath);
-    for(int i = 0; i < lines.length; i+=5){
-      Thesis t = new Thesis(int(lines[i]), lines[i+1], lines[i+2]);
+    for(int i = 0; i < lines.length; i+=4){
+      Thesis t = new Thesis(lines[i], lines[i+1], lines[i+2]);
       theses.add(t);
     }
   }
   
   void draw() {
-    textSize(20);
+    textSize(30);
     // fill(headlineColor);
-    text(title, r.x, r.y);
-    image(img, r.x, r.y+ 15, 500, 250);
+    text(title, r.x, r.y - 15);
+    image(img, r.x, r.y+ 15, 360, 279);
+    stroke(200);
+    noFill();
+    rect(r.x,r.y+15, 360, 279);
   }
   
   String thesesString(){
