@@ -1,0 +1,9 @@
+== ITP Thesis Archive Receipt Printer
+
+image::http://farm8.staticflickr.com/7001/6529496871_c33dddccdb.jpg[]
+
+A Processing sketch that sends text to an Arduino hooked up to a thermal printer. This project provided receipts with listings of ITP theses included in prints displayed at the 2011 Winter Show.
+
+For more about the thermal printer read http://www.ladyada.net/products/thermalprinter/[Lady Ada's turtorial].
+
+image::http://farm8.staticflickr.com/7035/6529355729_0044ebddbe.jpg[]
