@@ -39,8 +39,8 @@ void setup(){
   titlePages.loadTheses("title_pages.txt");
   categories.add(titlePages);
   
-  //String portName = Serial.list()[0];
-  //port = new Serial(this, portName, 9600);
+  String portName = Serial.list()[0];
+  port = new Serial(this, portName, 9600);
 }
 
 void draw(){
@@ -95,9 +95,8 @@ void mouseClicked(){
 
 void thermalPrintString(String toPrint){
   println(toPrint);
-  /*for(int i = 0; i < toPrint.length(); i++){
+  for(int i = 0; i < toPrint.length(); i++){
     port.write((byte)toPrint.charAt(i));
   }
   port.write((byte)1);
-  */
 }
